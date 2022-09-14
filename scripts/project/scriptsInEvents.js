@@ -10,10 +10,10 @@ function postText(value){
 
 const scriptsInEvents = {
 
-		async Score_Event3_Act5(runtime, localVars)
-		{
-			postText(runtime.globalVars.postMsg)
-		}
+	async Score_Event3_Act5(runtime, localVars)
+	{
+		postText(runtime.globalVars.postMsg)
+	}
 
 };
 
