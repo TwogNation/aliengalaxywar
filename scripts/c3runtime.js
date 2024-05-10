@@ -4650,6 +4650,7 @@ self.C3_JsPropNameTable = [
 	{Sprite15: 0},
 	{roadblock: 0},
 	{ErrorText: 0},
+	{Text: 0},
 	{PlayerScore: 0},
 	{best: 0},
 	{backmain: 0},
@@ -4715,7 +4716,8 @@ self.InstanceType = {
 	Sprite14: class extends self.ISpriteInstance {},
 	Sprite15: class extends self.ISpriteInstance {},
 	roadblock: class extends self.ITiledBackgroundInstance {},
-	ErrorText: class extends self.ITextInstance {}
+	ErrorText: class extends self.ITextInstance {},
+	Text: class extends self.ITextInstance {}
 }
 }
 
